@@ -7,59 +7,27 @@ const About = () => {
       <div className="container">
         <div className="about-content">
           <div className="about-text">
-            <h2 className="heading-2">About Purelife Wellness</h2>
-            <p className="text-lg">
-              We believe that true health comes from addressing the root causes of illness, 
-              not just treating symptoms. Our functional medicine approach focuses on your 
-              unique biochemistry, lifestyle, and environment to create personalized 
-              treatment plans that restore optimal wellness.
-            </p>
-            <p className="text-base">
-              With over 10 years of experience in functional medicine, our team of 
-              certified practitioners brings cutting-edge science and compassionate 
-              care directly to your home. We understand that your time is valuable, 
-              which is why we've designed our services to fit seamlessly into your life.
-            </p>
+            <h2 className="heading-2">About Veronica Acker</h2>
             
-            <div className="about-features">
-              <div className="feature">
-                <div className="feature-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </div>
-                <div className="feature-content">
-                  <h4>Evidence-Based Approach</h4>
-                  <p>All treatments are backed by the latest scientific research and clinical evidence.</p>
-                </div>
-              </div>
-              
-              <div className="feature">
-                <div className="feature-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </div>
-                <div className="feature-content">
-                  <h4>Compassionate Care</h4>
-                  <p>We treat you as a whole person, not just a collection of symptoms.</p>
-                </div>
-              </div>
-              
-              <div className="feature">
-                <div className="feature-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </div>
-                <div className="feature-content">
-                  <h4>Personalized Treatment</h4>
-                  <p>Every plan is tailored to your unique needs, goals, and lifestyle.</p>
-                </div>
-              </div>
-            </div>
+            <p className="text-lg">
+              With over 12 years in oncology and integrative healthcare, I’ve had the privilege of guiding patients and families through both healing and hardship. Those experiences taught me that true care begins with compassion, connection, and listening deeply to each person’s story.
+            </p>
+
+            <p className="text-base">
+              After earning my Nurse Practitioner degree from Chamberlain University in 2017, I’ve served across diverse settings — from primary care and urgent care to wellness and weight loss clinics. Each experience reinforced how lifestyle, prevention, and whole-body balance form the foundation of lasting wellness.
+            </p>
+
+            <p className="text-base">
+              My mission is to empower patients through education and evidence-based guidance — helping them create sustainable, healthy lifestyles that prevent disease and promote vitality. As a graduate of Functional Medicine University, I blend conventional medicine with a root-cause approach to restore balance and long-term health.
+            </p>
+
+            <p className="text-base">
+              At PureLife Wellness, I’m honored to partner with patients on their journey toward optimal health — providing personalized, compassionate care for the mind, body, and spirit.
+            </p>
+
+           
           </div>
-          
+               
           <div className="about-image">
             <div className="image-card">
               <div className="image-placeholder">
@@ -68,14 +36,14 @@ const About = () => {
                   <circle cx="12" cy="7" r="4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3>Veronica Acker</h3>
-              <p>Lead Functional Medicine Practitioner</p>
+              <h3>Veronica Acker, FNP-C</h3>
+              <p>Functional Medicine Nurse Practitioner</p>
               <div className="credentials">
-                <span>NP</span>
-                <span>10+ Years Experience</span>
+                <span>12+ Years Experience</span>
+                <span>Functional Medicine Certified</span>
               </div>
             </div>
-            
+
             <div className="stats-card">
               <div className="stat">
                 <span className="stat-number">500+</span>

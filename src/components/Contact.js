@@ -44,7 +44,7 @@ const Contact = () => {
                 </svg>
               </div>
               <h3>Call Us</h3>
-              <p>(555) 123-4567</p>
+              <p>(480) 430-3144</p>
               <span>Mon-Fri: 8AM-6PM</span>
             </div>
 
@@ -55,8 +55,8 @@ const Contact = () => {
                 </svg>
               </div>
               <h3>Email Us</h3>
-              <p>hello@purelifewellness.com</p>
-              <span>We respond within 24 hours</span>
+              <p>veronica@purelifewellnessaz.com</p>
+             
             </div>
 
             <div className="info-card">
@@ -67,8 +67,8 @@ const Contact = () => {
                 </svg>
               </div>
               <h3>Service Area</h3>
-              <p>Phoenix Metro Area</p>
-              <span>At-home visits available</span>
+              <p>East Valley Area</p>
+              <span>Chandler, Gllbert, Tempe, Mesa, and surrounding East Valley</span>
             </div>
           </div>
 

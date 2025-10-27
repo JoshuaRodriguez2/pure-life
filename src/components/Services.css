@@ -261,6 +261,21 @@
 .service-btn {
   width: 100%;
 }
+/* Center the last two service cards on larger screens */
+@media (min-width: 769px) {
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    justify-content: center;
+  }
+
+  /* If the last row has only two cards, center them */
+  .services-grid > .service-card:nth-last-child(2):first-child,
+  .services-grid > .service-card:nth-last-child(2):first-child ~ .service-card {
+    justify-self: center;
+  }
+}
 
 /* Mobile styles */
 @media (max-width: 768px) {
