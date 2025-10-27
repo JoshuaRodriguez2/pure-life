@@ -30,36 +30,19 @@ const Footer = () => {
           
           <div className="footer-links">
             <div className="footer-column">
-              <h4>Services</h4>
-              <ul>
-                <li><a href="#services">Health Assessment</a></li>
-                <li><a href="#services">Hormone Optimization</a></li>
-                <li><a href="#services">Gut Health</a></li>
-                <li><a href="#services">Detoxification</a></li>
-                <li><a href="#services">Chronic Disease</a></li>
-                <li><a href="#services">Preventive Care</a></li>
-              </ul>
+             
             </div>
             
             <div className="footer-column">
-              <h4>Company</h4>
-              <ul>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#about">Our Team</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#contact">Get in Touch</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms of Service</a></li>
-              </ul>
+             
             </div>
             
             <div className="footer-column">
               <h4>Contact Info</h4>
               <ul>
-                <li>(555) 123-4567</li>
-                <li>hello@purelifewellness.com</li>
-                <li>Greater Metro Area</li>
-                <li>Mon-Fri: 8AM-6PM</li>
+                <li>(480) 430-3144</li>
+                <li>veronica@purelifewellnessaz.com</li>
+               
               </ul>
             </div>
           </div>

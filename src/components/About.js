@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 
+
 const About = () => {
   return (
     <section id="about" className="about section">
@@ -8,7 +9,7 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <h2 className="heading-2">About Veronica Acker</h2>
-            
+
             <p className="text-lg">
               With over 12 years in oncology and integrative healthcare, I’ve had the privilege of guiding patients and families through both healing and hardship. Those experiences taught me that true care begins with compassion, connection, and listening deeply to each person’s story.
             </p>
@@ -25,17 +26,32 @@ const About = () => {
               At PureLife Wellness, I’m honored to partner with patients on their journey toward optimal health — providing personalized, compassionate care for the mind, body, and spirit.
             </p>
 
-           
+
           </div>
-               
+
           <div className="about-image">
             <div className="image-card">
-              <div className="image-placeholder">
-                <svg width="80" height="80" viewBox="0 0 24 24" fill="none">
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  <circle cx="12" cy="7" r="4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </div>
+            <div className="image-placeholder" 
+     style={{
+       width: '150px',
+       height: '150px',
+       borderRadius: '50%',
+       overflow: 'hidden',
+       margin: '0 auto',
+       border: '4px solid #d5e7ea', // optional accent border to match your style
+     }}
+>
+  <img
+    src="/profile.png"
+    alt="Veronica Acker, FNP-C"
+    style={{
+      width: '100%',
+      height: '100%',
+      objectFit: 'cover',
+    }}
+  />
+</div>
+
               <h3>Veronica Acker, FNP-C</h3>
               <p>Functional Medicine Nurse Practitioner</p>
               <div className="credentials">
@@ -43,18 +59,8 @@ const About = () => {
                 <span>Functional Medicine Certified</span>
               </div>
             </div>
-
-            <div className="stats-card">
-              <div className="stat">
-                <span className="stat-number">500+</span>
-                <span className="stat-label">Patients Helped</span>
-              </div>
-              <div className="stat">
-                <span className="stat-number">4.9/5</span>
-                <span className="stat-label">Patient Satisfaction</span>
-              </div>
-            </div>
           </div>
+
         </div>
       </div>
     </section>
