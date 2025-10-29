@@ -26,7 +26,7 @@ const Services = ({ selectedService, setSelectedService }) => {
           'Health education and counseling'
         ],
         duration: '1 hour',
-        price: 'Starting at $200',
+        price: 'See Pricing List',
         atHome: true
       }
     },
@@ -50,7 +50,7 @@ const Services = ({ selectedService, setSelectedService }) => {
           'Follow-up care guidance'
         ],
         duration: '30–60 minutes',
-        price: 'Starting at $250',
+        price: 'See Pricing List',
         atHome: true
       }
     },
@@ -70,12 +70,11 @@ const Services = ({ selectedService, setSelectedService }) => {
         includes: [
           'Developmental milestone evaluation',
           'Growth and health tracking',
-          'Vaccination review and administration',
           'Nutrition and sleep guidance',
           'Behavioral and family wellness support'
         ],
         duration: '45–60 minutes',
-        price: 'Starting at $175',
+        price: 'See Pricing List',
         atHome: true
       }
     },
@@ -99,7 +98,7 @@ const Services = ({ selectedService, setSelectedService }) => {
           'Ongoing progress tracking and support'
         ],
         duration: 'Initial 1 hour; 30 min follow-ups',
-        price: 'Starting at $350',
+        price: 'See Pricing List',
         atHome: true
       }
     },
@@ -125,7 +124,7 @@ const Services = ({ selectedService, setSelectedService }) => {
           'Personalized treatment plan'
         ],
         duration: '60–90 minutes initial; follow-ups as needed',
-        price: 'Starting at $400',
+        price: 'See Pricing List',
         atHome: true
       }
     }

@@ -8,12 +8,11 @@ const Hero = () => {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="heading-1">
-              Transform Your Health with
-              <span className="highlight"> Functional Medicine</span>
+            Mobile Wellness Clinic That <br />
+              <span className="highlight"> Comes to You</span>
             </h1>
             <p className="text-lg hero-description">
-              Experience personalized, at-home healthcare that addresses the root causes of your health concerns. 
-              Our functional medicine approach focuses on your unique needs to restore optimal wellness.
+            Personalized care, delivered to your door. We combine advanced diagnostics with holistic care to address your health needs and help you reach your optimal well-being.
             </p>
             <div className="hero-actions">
               <a href="#services" className="btn btn-primary">
@@ -32,10 +31,7 @@ const Hero = () => {
                 <span className="stat-number">4.9/5</span>
                 <span className="stat-label">Patient Satisfaction</span>
               </div>
-              <div className="stat">
-                <span className="stat-number">24/7</span>
-                <span className="stat-label">Support</span>
-              </div>
+             
             </div>
           </div>
           <div className="hero-image">
@@ -47,7 +43,7 @@ const Hero = () => {
                 </svg>
               </div>
               <h3>Personalized Care</h3>
-              <p>Tailored treatment plans designed specifically for your unique health profile and lifestyle.</p>
+              <p>Your health journey is uniqu, your care should be too. At Purelife wellness we take the time to listen,understand and create a plan tailored to your body, lifestyle, and goals.</p>
             </div>
             <div className="hero-card">
               <div className="card-icon">
@@ -56,7 +52,7 @@ const Hero = () => {
                 </svg>
               </div>
               <h3>At-Home Convenience</h3>
-              <p>Professional medical care delivered to your doorstep for maximum comfort and convenience.</p>
+              <p>Care in the comfort of your home. Skip the waiting rooms, we bring high quality and compassionate care directly to you.</p>
             </div>
           </div>
         </div>

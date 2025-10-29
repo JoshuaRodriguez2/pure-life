@@ -9,6 +9,7 @@ const Footer = () => {
           <div className="footer-brand">
             <h3>Purelife Wellness</h3>
             <p>Functional Medicine for Optimal Health</p>
+            {/*
             <div className="social-links">
               <a href="#" aria-label="Facebook">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -26,6 +27,7 @@ const Footer = () => {
                 </svg>
               </a>
             </div>
+            */}
           </div>
           
           <div className="footer-links">
