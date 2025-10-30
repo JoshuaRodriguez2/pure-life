@@ -66,7 +66,7 @@ const Services = ({ selectedService, setSelectedService }) => {
       ),
       details: {
         description:
-          'From newborns to teens, we provide gentle and thorough care for every stage of your child’s growth. Our well child visits cover developmental milestones, growth tracking, vaccinations, and guidance on nutrition, sleep, and behavioral health — all delivered in a comfortable, family-friendly environment.',
+          'From newborns to teens, we provide gentle and thorough care for every stage of your child’s growth. Our well child visits cover developmental milestones, growth tracking, and guidance on nutrition, sleep, and behavioral health — all delivered in a comfortable, family-friendly environment.',
         includes: [
           'Developmental milestone evaluation',
           'Growth and health tracking',

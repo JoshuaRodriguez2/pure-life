@@ -45,7 +45,7 @@ const Contact = () => {
               </div>
               <h3>Call Us</h3>
               <p>(480) 430-3144</p>
-              <span>Mon-Fri: 8AM-6PM</span>
+             
             </div>
 
             <div className="info-card">
