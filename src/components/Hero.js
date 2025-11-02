@@ -43,7 +43,7 @@ const Hero = () => {
                 </svg>
               </div>
               <h3>Personalized Care</h3>
-              <p>Your health journey is uniqu, your care should be too. At Purelife wellness we take the time to listen,understand and create a plan tailored to your body, lifestyle, and goals.</p>
+              <p>Your health journey is unique, your care should be too. At Purelife wellness we take the time to listen,understand and create a plan tailored to your body, lifestyle, and goals.</p>
             </div>
             <div className="hero-card">
               <div className="card-icon">
